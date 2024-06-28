@@ -8,4 +8,10 @@ This repository contains implementations of CP and Tucker tensor decompositions 
 - Tucker Decomposition
 - Integration with PyTorch for convolutional layers
 
+## Usage
+The library provides functions for applying CP and Tucker decompositions to convolutional layers in neural networks. You can integrate these functions into your deep learning pipeline to optimize model performance and reduce memory usage.
 
+## Requirements
+Python 3.7+
+PyTorch
+TensorLy
