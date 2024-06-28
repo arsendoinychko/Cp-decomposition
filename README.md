@@ -1,6 +1,11 @@
-# Cp-decomposition
-Objective
+# Tensor Decomposition Library
 
-The goal of this repository is to decompose each convolutional layer of convolutional neural networks and thus reduce computational time. More specifically, we want to see the reduction of number of floating point calculation (Flops), number of multiply-adds, inference evaluation time and CPU prediction time.
+## Overview
+This repository contains implementations of CP and Tucker tensor decompositions for optimizing convolutional layers in neural networks. The main focus is on decomposing the layers to reduce computational costs and memory usage, specifically for deep learning models like VGG16.
 
-We focus on 2 popular tensor decomposition techniques: CP decomposition and Tucker decomposition. Moreover, we aim to compare the performance of CNN with and without decompositions. This is a final project for the course Numerical Linear Algebra, Skoltech, Fall 2022.
+## Features
+- CP (CANDECOMP/PARAFAC) Decomposition
+- Tucker Decomposition
+- Integration with PyTorch for convolutional layers
+
+
