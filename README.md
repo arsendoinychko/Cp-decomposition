@@ -15,3 +15,8 @@ The library provides functions for applying CP and Tucker decompositions to conv
 Python 3.7+
 PyTorch
 TensorLy
+
+## References
+- [CP (CANDECOMP/PARAFAC) Decomposition](https://arxiv.org/pdf/1511.06530)
+- [Tucker Decomposition](https://arxiv.org/pdf/1412.6553v3.pdf)
+- [Integration with PyTorch for convolutional layers](https://arxiv.org/abs/1412.6553 )
